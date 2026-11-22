@@ -128,7 +128,7 @@ export const content = {
       'When we’re together, I always wish we had a little more time. And when we’re apart, I catch myself thinking of things I want to tell you the next time we talk. Sometimes it’s something funny that happened. Sometimes I just want to hear your voice.',
       'I made this little garden for you because you love flowers, and I wanted to give you some you could keep. While I was putting our photos together, I kept stopping to look at them. Each one reminded me of something the camera didn’t catch — what we were talking about, how you laughed, or how happy I was to be there with you.',
       'I hope you always feel comfortable telling me what’s on your mind. I want to hear about the good days, the tiring ones, and the ones where all you want to say is, “I’ll tell you tomorrow.”',
-      'I’m so glad I met you, S. I look forward to more walks, more photos, and more time together. And the next time I see you, I’d really like to give you a long hug.'
+      'I’m so glad I met you, Jhilik. I look forward to more walks, more photos, and more time together. And the next time I see you, I’d really like to give you a long hug.'
     ],
     signoff: 'With love,',
     signature: 'Your Man',
