@@ -1,0 +1,143 @@
+const image = (name) => name ? import.meta.env.BASE_URL + 'images/' + name : ''
+
+export const content = {
+  brand: 'A Garden for US',
+  access: {
+    username: 'jhilik',
+    password: 'jhilik2026',
+    title: ['A garden', 'for two.'],
+    intro: 'I planted a few of my favorite memories here. Come in when you’re ready.',
+    hint: 'Demo key: myflower / bloom', // Set to '' before gifting.
+  },
+  hero: {
+    title: ['The moments', 'I keep.'],
+    intro: 'A little place for the days that felt like spring, and the ordinary moments that stayed with me.',
+    image: image('garden.webp'),
+  },
+  memories: {
+    title: 'Pressed between the pages',
+    intro: 'A few little things I’d save, if memories could be pressed like flowers.',
+    entries: [
+      { id: 'hello', label: 'The beginning', title: 'The first hello', text: 'There’s something lovely about looking back at the first hello, knowing how much it would come to mean.', image: image('hello.jpeg'), alt: '', flower: 'rose' },
+      { id: 'laugh', label: 'The little things', title: 'The laugh I’d bottle', text: 'If I could save a sound for a rainy day, it would be your laugh. Even thinking of it makes me smile.', image: image('promise.jpeg'), alt: '', flower: 'daisy' },
+      { id: 'ordinary', label: 'My favorite kind of day', title: 'A special day, with you', text: 'Some of my favorite memories are the quiet ones. There was time to talk, time to listen, and no rush to be anywhere else.', image: image('jaganath.jpeg'), alt: '', flower: 'bud' },
+    ],
+  },
+  album: {
+    id: 'album',
+    nav: 'Album',
+    title: 'Our little photo album',
+    intro: 'For the pictures I always stop scrolling to look at.',
+    artwork: image('album-botanicals.webp'),
+    previous: 'Previous photo',
+    next: 'Next photo',
+    close: 'Close album',
+    photos: [
+      { id: 'first', title: 'One of our first photos', caption: 'A little piece of the beginning.', image: image('withyou.jpeg'), alt: '', flower: 'rose' },
+      { id: 'candid', title: 'My favorite candid', caption: 'The kind of smile that makes me smile, too.', image: image('second_pic.jpeg'), alt: '', flower: 'daisy' },
+      { id: 'day', title: 'A day I’d do again', caption: 'If we could go back for one afternoon.', image: image('leg.jpeg'), alt: '', flower: 'bud' },
+      { id: 'next', title: 'A page for what’s next', caption: 'There’s room for more memories here.', image: image('next.jpeg'), alt: '', flower: 'rose' },
+      {
+        id: 'caught-laughing',
+        title: 'Caught in a Laugh',
+        caption: 'I don’t remember what we were laughing about, but I still smile when I see this.',
+        image: image('care.jpeg'),
+        alt: '',
+        flower: 'daisy',
+      },
+      {
+        id: 'our-little-outing',
+        title: 'A Little Day Out',
+        caption: 'If I could go back to this day, I’d ask for one more walk with you.',
+        image: image('drinks.jpeg'),
+        alt: '',
+        flower: 'bud',
+      },
+      {
+        id: 'just-us-two',
+        title: 'Just Us Two',
+        caption: 'This is the photo I come back to when I miss being next to you.',
+        image: image('justus.jpeg'),
+        alt: '',
+        flower: 'rose',
+      },
+      {
+        id: 'almost-forgot-to-take',
+        title: 'The Photo We Almost Forgot to Take',
+        caption: 'I’m glad we took this one. I would’ve missed the way you’re looking at me here.',
+        image: image('look.jpeg'),
+        alt: '',
+        flower: 'daisy',
+      },
+    ],
+  },
+  surprises: {
+    id: 'surprises',
+    nav: 'Surprises',
+    title: 'Open when…',
+    intro: 'Pick the card that feels right for today.',
+    open: 'Open note',
+    close: 'Fold note',
+    cards: [
+      { id: 'long-day', title: 'It’s been a long day', flower: 'bud', note: 'Take a breath. You can tell me all about it, or we can sit quietly together for a while.' },
+      { id: 'miss-me', title: 'You miss me', flower: 'rose', note: 'Tell me one little thing about your day. I always like hearing the parts nobody else would think to ask about.' },
+      { id: 'little-smile', title: 'You need a little smile', flower: 'daisy', note: 'Choose a flower for me next time we walk past a flower shop. I want to know which one makes you think of me.' },
+    ],
+  },
+  bloom: {
+    title: 'Grow a little garden',
+    intro: 'Tap each seed and see what grows.',
+    plant: 'Bloom',
+    reset: 'Plant again',
+    reward: 'A whole garden, grown by you. I hope we make just as many little reasons to smile.',
+    artwork: image('dusk-garden.webp'),
+    flowers: [
+      { id: 'rose', name: 'Rose' },
+      { id: 'daisy', name: 'Daisy' },
+      { id: 'bud', name: 'Tulip' },
+    ],
+  },
+  wishes: {
+    title: 'Things I’d love to do with you',
+    intro: 'Pick the little date you’d like us to go on next.',
+    choose: 'Pick this date',
+    clear: 'Choose again',
+    picked: 'Your pick',
+    ideas: [
+      { id: 'flowers', flower: 'rose', title: 'A flower market morning', text: 'Find one bloom for each other, then take the long way home.' },
+      { id: 'picnic', flower: 'daisy', title: 'A sunset picnic', text: 'Bring your favorite snacks and find a spot where we can watch the light change.' },
+      { id: 'craft', flower: 'bud', title: 'A handmade afternoon', text: 'Make each other a card and trade them before we leave.' },
+    ],
+  },
+  effects: {
+    on: 'Click sounds on',
+    off: 'Click sounds off',
+    enabledByDefault: true,
+  },
+  music: {
+    source: import.meta.env.BASE_URL + 'audio/garden-waltz.mp3',
+    play: 'Play music',
+    pause: 'Pause music',
+    error: 'Music couldn’t start. Tap Play music to try again.',
+  },
+  letter: {
+    title: 'For you, always',
+    salutation: 'My love,',
+    paragraphs: [
+      'I wanted to give you something you could return to on a good day, a difficult day, or any day you feel like remembering us.',
+      'I want to keep getting better at the small things that matter to us. I’ll listen when you need room to talk, ask when I don’t understand, and tell you what’s on my mind so you never have to guess.',
+      'Thank you for letting me get to know you a little more every day. That’s still my favorite part.',
+    ],
+    signoff: 'With love,',
+    signature: 'Your Man',
+  },
+  bouquet: {
+    title: 'Pick a flower',
+    intro: 'Every flower has a little note tucked inside.',
+    flowers: [
+      { id: 'rose', name: 'Garden rose', note: 'I love hearing you talk about the things that make you happy.' },
+      { id: 'daisy', name: 'Daisy', note: 'I hope you get a little time today to do something just for yourself.' },
+      { id: 'bud', name: 'Tulip', note: 'I’m looking forward to the small things we haven’t done together yet.' },
+    ],
+  },
+}
