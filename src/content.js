@@ -124,9 +124,11 @@ export const content = {
     title: 'For you, always',
     salutation: 'My love,',
     paragraphs: [
-      'I wanted to give you something you could return to on a good day, a difficult day, or any day you feel like remembering us.',
-      'I want to keep getting better at the small things that matter to us. I’ll listen when you need room to talk, ask when I don’t understand, and tell you what’s on my mind so you never have to guess.',
-      'Thank you for letting me get to know you a little more every day. That’s still my favorite part.',
+      'I love you. I love hearing about your day, getting a message from you when I least expect it, and laughing with you over things I’d probably forget if they happened with anyone else.',
+      'When we’re together, I always wish we had a little more time. And when we’re apart, I catch myself thinking of things I want to tell you the next time we talk. Sometimes it’s something funny that happened. Sometimes I just want to hear your voice.',
+      'I made this little garden for you because you love flowers, and I wanted to give you some you could keep. While I was putting our photos together, I kept stopping to look at them. Each one reminded me of something the camera didn’t catch — what we were talking about, how you laughed, or how happy I was to be there with you.',
+      'I hope you always feel comfortable telling me what’s on your mind. I want to hear about the good days, the tiring ones, and the ones where all you want to say is, “I’ll tell you tomorrow.”',
+      'I’m so glad I met you, S. I look forward to more walks, more photos, and more time together. And the next time I see you, I’d really like to give you a long hug.'
     ],
     signoff: 'With love,',
     signature: 'Your Man',
